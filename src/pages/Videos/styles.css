@@ -9,6 +9,11 @@
     margin: 15px;
 }
 
+.main-section iframe{
+    width: 560px;
+    height: 315px;
+}
+
 .secundary-section {
     width: 560px;
     height: 315px;
@@ -20,8 +25,4 @@
     margin: 5px;
     width: 280px;
     height: 151px;
-}
-
-iframe {
-    border-radius: 5%;
 }
