@@ -1,0 +1,16 @@
+.container-home {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-home img {
+    height: 80%;
+    border-radius: 25px;
+}
+
+.container-home img:hover {
+    height: 85%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}

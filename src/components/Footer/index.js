@@ -1,6 +1,8 @@
+import './styles.css';
+
 const Footer = () => {
     return(
-        <footer>
+        <footer className='container-footer'>
             <h1>Rodapé</h1>
         </footer>
     )

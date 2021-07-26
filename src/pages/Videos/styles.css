@@ -1,0 +1,27 @@
+.container-news {
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section {
+    margin: 15px;
+}
+
+.secundary-section {
+    width: 560px;
+    height: 315px;
+    display: flex;
+    align-items: center;
+}
+
+.secundary-section div iframe {
+    margin: 5px;
+    width: 280px;
+    height: 151px;
+}
+
+iframe {
+    border-radius: 5%;
+}

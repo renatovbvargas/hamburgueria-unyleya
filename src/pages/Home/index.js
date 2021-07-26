@@ -1,7 +1,10 @@
+import HamburgerHome from '../../img/hamburgerhome.jpg';
+import './styles.css';
+
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className='container-page container-home'>
+            <img src={HamburgerHome} alt='HamburguerHome' />
         </div>
     )
 }
