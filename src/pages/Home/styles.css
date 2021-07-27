@@ -14,3 +14,28 @@
     height: 85%;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
 }
+
+.container-depoimento-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-depoimento-home span {
+    cursor: pointer;
+}
+
+.container-depoimento-home span:hover {
+    font-weight: bold;
+}
+
+
+.container-depoimento-home span {
+    cursor: pointer;
+    color: black;
+}
+
+.container-depoimento-home span:hover {
+    font-weight: bold;
+}

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Videos from './pages/Videos';
+import Depoimentos from './pages/Depoimentos';
 
 import './styles.css';
 
@@ -16,6 +17,7 @@ function Routes() {
         <Route path='/' exact={true} component={Home} />
         <Route path='/cardapio' exact={true} component={Menu} />
         <Route path='/videos' exact={true} component={Videos} />
+        <Route path='/depoimentos' exact={true} component={Depoimentos} />
       </Switch>
       <Footer />
     </BrowserRouter>
