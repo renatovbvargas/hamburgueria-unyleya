@@ -35,6 +35,7 @@
     border: 1px solid #797979;
     border-radius: 5px;
     padding: 10px;
+    resize: none;
 }
 
 .form-depoimentos button {
