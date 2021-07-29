@@ -46,3 +46,13 @@
     font-weight: bold;
 }
 
+.ifood {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ifood img{
+    margin: 18px 0 0 10px;
+    height: 40px;
+    border-radius: unset;
+}
