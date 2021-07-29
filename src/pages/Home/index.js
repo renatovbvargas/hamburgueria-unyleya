@@ -6,10 +6,13 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div className='container-page container-home'>
-            <img src={HamburgerHome} alt='HamburguerHome' />
+            <div className='img-container-home'>
+                <img src={HamburgerHome} alt='HamburguerHome' />
+                <h1>EM BREVE...</h1>
+            </div>
             <div className='container-depoimento-home'>
-                <Depoimento />
-                <Link to='/depoimentos'><span>Adicione um depoimento...</span></Link>
+                <Depoimento size={6} />
+                <Link to='/depoimentos'><h3 className='link-depoimentos'>Ver todos os depoimentos...</h3></Link>
             </div>
         </div>
     )

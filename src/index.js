@@ -12,7 +12,6 @@ const store = createStore(Reducers);
 
 const inicializa = async () => {
   const resp = await axios.get('https://hamburgueria-unyleya-api.herokuapp.com/depoimento');
-  console.log(resp);
 
   resp.data.forEach(it => {
     const { nome, depoimento, data_hora } = it;

@@ -1,35 +1,41 @@
 .container-home {
-    width: 100vw;
+    width: 100wv;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container-home img {
-    height: 80%;
+.img-container-home {
+    width: 50%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-container-home img {
+    height: 85%;
     border-radius: 25px;
 }
 
-.container-home img:hover {
-    height: 85%;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
-}
-
 .container-depoimento-home {
+    height: 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-.container-depoimento-home span {
+.link-depoimentos {
+    margin-top: 10px;
     cursor: pointer;
+    color: black;
 }
 
-.container-depoimento-home span:hover {
+.link-depoimentos:hover {
     font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
 }
-
 
 .container-depoimento-home span {
     cursor: pointer;
@@ -39,3 +45,4 @@
 .container-depoimento-home span:hover {
     font-weight: bold;
 }
+

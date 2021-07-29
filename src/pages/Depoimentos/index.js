@@ -35,11 +35,13 @@ const Depoimentos = () => {
     return (
         <main className='container-page container-depoimentos'>
             <div className='inner-container-depoimentos'>
-                <Depoimento />
                 <div className='form-depoimentos'>
                     <input type='text' placeholder='Seu nome' onChange={nome => setNome(nome.target.value)} />
                     <textarea type='textarea' placeholder='Adicionar um depoimento público...' onChange={depoimento => setDepoimento(depoimento.target.value)} />
                     <button onClick={adicionaDepoimento}>Adicionar</button>
+                </div>
+                <div className='area-depoimentos'>
+                    <Depoimento />
                 </div>
             </div>
         </main>
